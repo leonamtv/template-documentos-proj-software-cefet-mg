@@ -1,0 +1,186 @@
+\newpage
+
+\section*{Anexo 1}
+
+    \subsection*{Estimativa de prazo e custo}
+        \noindent \cbox{
+            OBS: este documento anexo não é parte integrante da proposta pois não deverá ser apresentado ao cliente. O propósito deste anexo é auxiliar no cálculo da estimativa de custo e prazo e preço final do produto. Deverá ser guardado como uma documentação do projeto e servirá futuramente para auxiliar em novas estimativas.
+        }
+    
+        \vspace{0.5cm}
+    
+        Realizar a estimativa de tempo (em horas) de cada funcionalidade: 
+    
+        \begin{center}
+        
+            \begin{tabular}{| c | c | c |}
+                \hline
+                \textbf{Nº} & \textbf{Nome} & \textbf{Tempo estimado } \\ \hline
+                & & \\ \hline
+                & & \\ \hline
+                & & \\ \hline
+                & & \\ \hline
+                & & \\ \hline
+            \end{tabular}
+        
+        \end{center}
+    
+        \subsection*{Estimativa de prazo de desenvolvimento e entrega}
+        
+            \noindent\cbox{
+                O tempo de desenvolvimento total do projeto é a soma tempo gasto em cada fase do processo de desenvolvimento (Requisitos, Análise, Projeto, Codificação e Testes). É comum as empresas incluírem no tempo de desenvolvimento uma margem de segurança para evitar atrasos na entrega dentro do que foi acordado com o cliente. 
+            }
+            
+            \subsubsection*{Estimativa de prazo de desenvolvimento}
+            
+                \begin{center}
+                
+                    \begin{tabular}{| c | c | c |}
+                        \hline
+                        1 & \makecell{Tempo de documentação (Requisitos, análise e projeto)} & $T_D$ \\ \hline
+                        2 & Tempo de codificação & $T_C$ \\ \hline
+                        3 & Tempo de teses & $T_T$ \\ \hline
+                        4 & \textbf{Tempo total estimado} & $T_{tot} = T_D + T_C + T_T$ \\ \hline
+                    \end{tabular}
+                
+                    \captionof*{table}{\textbf{OBS.: } Calcular as estimativas de tempo em horas.}
+                
+                \end{center}
+            
+                \begin{enumerate}
+                
+                    \item \textbf{Tempo de documentação (Requisistos, análise e projeto) =} Tempo gasto com todas as atividades de requisistos, análise e projeto como entrevista, construção dos diagramas, desenvolvimentos dos documentos etc.;
+                
+                    \item \textbf{Tempo de codificação =} Soma das horas estimadas para cada funcionalidade;
+                
+                    \item \textbf{Tempo de testes =} Tempo estimado para realizar todos os testes do sistema;
+                
+                    \item \textbf{Tempo total =} Tempo de documentação + Tempo de codificação + Tempo de testes.
+            
+                \end{enumerate}
+            
+            \subsubsection*{Estimativa de prazo de entrega}
+            
+            \begin{center}
+                
+                \begin{tabular}{| c | c | c |} 
+                    \hline
+                    5 & Carga horária mensal & $C_{HM}$  \\ \hline
+                    6 & Tempo total em meses & \makecell{$T_M = \frac{T_{tot}}{C_{HM}}$} \\ \hline \hline
+                    7 & Margem de segurança (\%) & $M_S$ \\ \hline
+                    8 & \textbf{Prazo de entrega (meses)} & $P_T = T_M + T_M\cdot M_S$ \\ \hline
+                \end{tabular}
+                
+            \end{center}
+            
+            \subsubsection*{Custos do projeto}
+            
+                \noindent Como calcular o custo do projeto
+                
+                \begin{center}
+                    
+                    \begin{tabular}{| c | c | c |}
+                        \hline
+                         9  & Custo da hora do desenvolvedor         & $H$ \\ \hline
+                         10 & Custo da mão de obra                   & $C_m = T_{tot} \cdot H$ \\ \hline
+                         11 & Custo operacional                      & $C_o$ \\ \hline
+                         12 & Custo ferramentas (Softwares/Hardware) & $C_f$ \\ \hline \hline
+                         13 & \textbf{Custo total}                   & $C_{tot} = C_m + C_o + C_f$ \\ \hline
+                    \end{tabular}
+                    
+                    \captionof*{table}{\textbf{OBS.: } Calcular as estimativas de valores em reais (R\$).}
+                        
+                \end{center}
+                
+                \begin{enumerate}
+                    
+                    \item \textbf{Custo da hora do desenvolvedor} = Pesquisar o valor médio de mercado da hora de um desenvolvedor 
+                    
+                    \item \textbf{Custo da Mão de obra} = Tempo Total * Custo da hora do desenvolvedor 
+                    
+                    \item \textbf{Custo operacional da empresa} = água/ luz/ telefone/ aluguel/ limpeza/ secretária/ contador – estimar o custo mensal dividir pelo número de projetos desenvolvidos pela empresa (Obtém o custo mensal do projeto e multiplica-se pelo número de meses previsto no desenvolvimento do mesmo) 
+                
+                    \item \textbf{Custo de Ferramentas (Softwares/Hardware)} = Estima-se o custo hardware e software necessários ao desenvolvimento do projeto e determina-se uma depreciação sobre o custo das ferramentas. 
+
+                    \textbf{OBS.:} Vamos usar 10\% do valor de hardware + licença de software. 
+                    
+                    \item \textbf{Custo total} = Custo Mão de obra + Custo Operacional + Custo de Ferramentas. 
+                \end{enumerate}
+                
+                \textbf{OBS.:} Custo de Infra-estrutura: (Registro de Domínios / Hospedagem de Sites / Servidores / Redes...) - quando for o caso. É importante deixar claro ao cliente que podem ser necessários outros investimentos como compra de software, hardware, custo com hospedagem (em caso de sistemas web) etc. 
+                
+            \subsubsection*{Preço do projeto}
+            
+                \noindent Utilizar a estimativa de custos e determinar o preço do projeto: determinar a margem de Lucro sobre seus custos e repassar aos clientes os custos de infra-estrutura que terão. 
+                
+                \begin{center}
+                    
+                    \begin{tabular}{| c | c | c |} \hline
+                         1 & Custo total & $C_{tot}$  \\ \hline
+                         2 & Margem de lucro $(\%)$ & $M_{L}$ \\ \hline 
+                         3 & \textbf{Preço do sistema} & $P = C_{tot} + C_{tot} \cdot M_L$ \\ \hline
+                    \end{tabular}
+                    
+                \end{center}
+                
+            \subsubsection*{Prazo de desenvolvimento}
+            
+                \noindent É comum as empresas incluírem no tempo de desenvolvimento uma margem de segurança para evitar atrasos na entrega dentro do que foi acordado com o cliente. 
+
+                \begin{center}
+                    
+                    \begin{tabular}{| c | c | c |} \hline
+                         1 & Tempo total estimado  & $T_{tot}$ \\ \hline
+                         2 & Margem de segurança   & $M_S$ \\ \hline
+                         3 & Prazo total (horas)   & $P_T = T_{tot} + T_{tot} \cdot M_S$ \\ \hline
+                         4 & Carga horária semanal & $C_{HS}$ \\ \hline  
+                         5 & \textbf{Prazo de entrega (semanas)} & $P_E = \frac{P_t}{C_{HS}}$ \\ \hline
+                    \end{tabular}
+                    
+                \end{center}
+            
+        \subsection*{Exemplo}
+        
+            \subsubsection*{Custos do projeto}
+            
+                \begin{center}
+                    
+                    \begin{tabular}{| c | c | c |} \hline
+                         1 & Tempo de documentação (Requisitos, Análise e Projeto) & 30 horas \\ \hline
+                         2 & Tempo de codificação & 150 horas \\ \hline
+                         3 & Tempo de testes & 20 horas \\ \hline
+                         4 & Tempo total estimado & 30 + 150 + 20 = 200 horas \\ \hline \hline
+                         5 & Custo hora desenvolvedor & R\$ 10,00 \\ \hline
+                         6 & Custo da mão de obra & 200 * 10 = R\$ 2000,00 \\ \hline \hline
+                         7 & Custo operacional & R\$ 50,00 \\ \hline
+                         8 & Custo ferramentas (Software/Hardware) & R\$ 300,00 \\ \hline \hline
+                         9 & \textbf{Custo total} & 2000 + 500 + 300 = R\$ 2800,00 \\ \hline
+                    \end{tabular}
+                    
+                \end{center}
+            
+            \subsubsection*{Preço do projeto}
+            
+                \begin{center}
+                    
+                    \begin{tabular}{| c | c | c |} \hline
+                         1 & Custo total & R\$ 2800,00 \\ \hline
+                         2 & Margem de lucro $(\%)$ & 30\% \\ \hline 
+                         3 & \textbf{Preço do sistema} & 2800 + 2800 * 0,3 = R\$ 3640,00 \\ \hline
+                    \end{tabular}
+                    
+                \end{center}    
+                
+            \subsubsection*{Prazo de desenvolvimento}
+            
+                \begin{center}
+                    
+                    \begin{tabular}{| c | c | c |} \hline
+                         1 & Tempo total estimado & 200 horas \\ \hline
+                         2 & Margem de segurança (\%) & 30 \% \\ \hline
+                         3 & Prazo total (horas) & 200 + 200 * 0,3 = 260 horas  \\ \hline
+                         4 & \textbf{Prazo de entrega (em semanas)} & $\frac{260}{30} = 9$ semanas \\ \hline
+                    \end{tabular}
+                    
+                    
+                \end{center}
