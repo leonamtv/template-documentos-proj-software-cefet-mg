@@ -2,6 +2,13 @@
 
 Template em LaTeX para os documentos de projeto de software das disciplinas de Engenharia de Software do CEFET-MG Timóteo.
 
+```
+ LaTeX_files
+ |-> doc_1: arquivos do documento 01 
+ |-> doc_2: arquivos do documento 02
+ |-> doc_3: arquivoc do documento 03
+```
+
 ## Links para as versões no overleaf
 
 [Documento 01 - Proposta](https://www.overleaf.com/read/qfkhhfvbjdtq)
