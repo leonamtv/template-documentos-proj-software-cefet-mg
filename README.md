@@ -14,7 +14,7 @@ Template em LaTeX para os documentos de projeto de software das disciplinas de E
 
 Templates baseados nos documentos da prof.ª Márcia e do prof. Marcelo Balbino.
 
-## Contribuídores: 
+## Contribuidores: 
 
 * [Adriel](https://github.com/AdrlVmadriel)
 * [André](https://github.com/AndreNeves97)
