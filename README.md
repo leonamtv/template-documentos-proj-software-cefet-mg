@@ -10,9 +10,11 @@ Template em LaTeX para os documentos de projeto de software das disciplinas de E
 
 [Documento 03 - Documentação do desenvolvimento](https://www.overleaf.com/read/xrsbjkxqcvjm)
 
+## Créditos:
+
 Templates baseados nos documentos da prof.ª Márcia e do prof. Marcelo Balbino.
 
-Contribuídores: 
+## Contribuídores: 
 
 * [Adriel](https://github.com/AdrlVmadriel)
 * [André](https://github.com/AndreNeves97)
