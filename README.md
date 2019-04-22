@@ -19,7 +19,7 @@ Template em LaTeX para os documentos de projeto de software das disciplinas de E
 
 ## Créditos:
 
-Templates baseados nos documentos da prof.ª Márcia e do prof. Marcelo Balbino.
+Templates baseados nos documentos da prof.ª Márcia, prof.ª Deisymar e do prof. Marcelo Balbino.
 
 ## Contribuidores: 
 
