@@ -24,6 +24,10 @@ Templates baseados nos documentos da prof.ª Márcia, prof.ª Deisymar e do prof
 ## Contribuidores: 
 
 * [Adriel](https://github.com/AdrlVmadriel)
+adriel.vinicius741@gmail.com
 * [André](https://github.com/AndreNeves97)
+andreneves3@gmail.com
 * [Leonam](https://github.com/LeonamTeixeraDeVasconcelos)
+leonam.teixeira.vasconcelos@gmail.com
 * [Maycon](https://github.com/MayconCarvalho)
+maycon.arth.carvalho@gmail.com
