@@ -8,7 +8,10 @@
 \usepackage{longtable}
 \usepackage[utf8]{inputenc}
 \usepackage{url}
-\usepackage[top=25mm, bottom=25mm, left=25mm, right=25mm]{geometry}
+\usepackage[top=30mm, bottom=20mm, left=30mm, right=20mm]{geometry}
+\usepackage{pdflscape}
+\usepackage{float}
+\usepackage{array, longtable}
 
 \newcommand{\cbox}[2][yellow]{%
   \colorbox{#1}{\parbox{\dimexpr\linewidth-2\fboxsep}{\strut #2\strut}}%
@@ -18,6 +21,7 @@
 \renewcommand\theadfont{\bfseries}
 \renewcommand\theadgape{\Gape[4pt]}
 \renewcommand\cellgape{\Gape[4pt]}
+\newcommand\tab[1][1cm]{\hspace*{#1}}
 
 \onehalfspacing
 
@@ -26,21 +30,17 @@
     \input{src/capa.tex}
     
     \input{src/glossario.tex}
-    
+
+    \input{src/mat_ref.tex}
+
     \input{src/minimundo.tex}
+
+    \input{src/desc_atores.tex}
     
     \input{src/lista_func.tex}
-    
-    \input{src/mat_ref.tex}
-    
-    \input{src/req_software.tex}
-    
-    \input{src/desc_atores.tex}
     
     \input{src/diagrama_detalhamento.tex}
     
     \input{src/modelo_analise.tex}
-    
-    \input{src/projeto_interface.tex}
 
 \end{document}
