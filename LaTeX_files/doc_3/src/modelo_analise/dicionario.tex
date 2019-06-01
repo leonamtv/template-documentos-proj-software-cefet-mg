@@ -1,0 +1,28 @@
+\subsection{\textbf{Dicionário de dados completo}}
+
+\noindent \cbox{
+    Faça um dicionário completo. O exemplo abaixo é para vocês lembrarem como é.
+}
+
+\begin{longtable}{|p{3.5cm}|p{1cm}|p{2cm}|p{6cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2.5cm}|}
+\hline 
+\multicolumn{3}{|l|}{ \cellcolor{lightgray} \textbf{Entidade}} & \multicolumn{6}{c|}{ \cellcolor{lightgray}} \\ \hline
+\multicolumn{3}{|l|}{\textbf{Nome}} & \multicolumn{6}{l|}{Tabela de Curso} \\ \hline
+\multicolumn{3}{|l|}{\textbf{Nome Abreviado}} & \multicolumn{6}{l|}{TbCurso} \\ \hline
+\multicolumn{3}{|l|}{\textbf{Índices}} & \multicolumn{2}{l|}{Nome do Índice} & \multicolumn{2}{l|}{Atributos} & \multicolumn{2}{l|}{Único (Sim, Não)}\\ \hline
+\multicolumn{3}{|l|}{} & \multicolumn{2}{l|}{IND\_TBCURSO\_NMCURSO} & \multicolumn{2}{l|}{NMCURSO} & \multicolumn{2}{l|}{Sim}\\ \hline
+\multicolumn{3}{|l|}{} & \multicolumn{2}{l|}{} & \multicolumn{2}{l|}{} & \multicolumn{2}{l|}{}\\ \hline
+\multicolumn{3}{|l|}{\textbf{Descrição}} & \multicolumn{6}{l|}{Tabela que contém todos os cursos oferecidos pela Universidade Miranda.}\\ \hline
+\multicolumn{9}{|l|}{ \cellcolor{lightgray} \textbf{Atributos}} \\ \hline
+
+\cellcolor{lightgray} {Nome do Atributo} &  \cellcolor{lightgray} {Tipo} &  \cellcolor{lightgray} {Tamanho} &  \cellcolor{lightgray} {Descrição} &  \cellcolor{lightgray} {Máscara} &  \cellcolor{lightgray} {Regra Validação} &  \cellcolor{lightgray} {Valores Válidos} &  \cellcolor{lightgray} {Range} &  \cellcolor{lightgray} {Integridade Referencial} \\ \hline
+
+CDCURSO &  N & 5,0 & Código do Curso & 99.999 & $>$ 0 & & & \\ \hline
+NMCURSO &  T & 50 & Nome do Curso & & Obrigatório & & & \\ \hline
+CDAREA & N & 5,0 & Código da Área & 99.999 & $>$ 0 & & & TBAREA \\ \hline
+DTINCREG & D & 10 & Data Inclusão Registro & 99/99/9999 & $<=$  date ( ) & & & \\ \hline
+CDUSUINC &  N & 5,0 &Código Usuário Incluiu Registro & 99.999 & $>$ 0 &
+& & TBUSUARIO \\ \hline
+DTALTREC & D & 8 & Data Alteração do Registro &  99/99/9999 & $<=$  date ( ) & & & \\ \hline
+CDUSUALT &  N &  5,0 & Código Usuário Alterou  Registro & 99.999 & $>$ 0 & & & \\ \hline
+\end{longtable}  
